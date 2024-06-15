@@ -76,6 +76,22 @@ button:hover {
 
 .amenities .popover ul{
     margin: 0px;
+    padding : 0px;
+    list-style : none;
+}
+/*for the box_input partie*/
+.amenities .popover ul li{
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+.amenities .popover ul li input[type="checkbox"] {
+    position: absolute;
+    left: 0;
+    top : 50%;
+    transform : translatey(-50%);
+    margin-left: 10px;
+
 }
 
 .locations .popover {
